@@ -11,3 +11,128 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+.container {
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.table-item {
+  border: 2px solid #dddddd;
+  padding: 5px;
+  margin: 10px;
+}
+
+.header {
+  color: coral;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.primary-button {
+  color: white;
+  background-color: #0562ed;
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.secondary-button {
+  color: white;
+  background-color: #1e1f21;
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.green-dot {
+  font-size: 2rem;
+  color :#1ced05
+}
+
+.red-dot {
+  font-size: 2rem;
+  color :#ed0505
+}
+
+.pagination {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 5;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  /* justify-items: center; */
+  /* align-items: flex-start; */
+}
+
+.flex-item {
+  flex: 1;
+  width: 50%;
+}
+
+.detail-item {
+  padding: 5px;
+  margin: 5px;
+}
+
+.detail-label {
+  color: coral;
+  font-size: 1rem;
+}
+.detail-value {
+  border: 1px solid #dddddd;
+  padding: 5px;
+  width: 100%;
+}
+.detail-status-red {
+  border: 1px solid #ff3131;
+  color: #ff3131;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+}
+.detail-status-green {
+  border: 1px solid #28f046;
+  color: #28f046;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+}
+
+.detail-button-blue {
+  background-color: #318eff;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+.detail-button-red {
+  background-color: #ff3131;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  cursor: pointer;
+}
